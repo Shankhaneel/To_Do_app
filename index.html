@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <title>To Do List</title>
-    
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="todoapp">
-            <h2>To Do List: <img src="./Images/To-dologo.jpg" alt=""></h2>
+      <div class="todoapp">
+        <h2>To Do List: <img src="./Images/To-dologo.jpg" alt="" /></h2>
+        <!--ADDING THE SEARCH BUTTON-->
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="Add Items to be added"
+          />
+          <!--ADDING BUTTON -->
+          <button>Add</button>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
